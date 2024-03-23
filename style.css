@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+    color: #333;
+    width: 300px;
+}
+
+#gasPrice {
+    background-color: #fff;
+    border-radius: 12px;
+     
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #666;
+    font-size: 110%;
+}
+
+/* Добавим немного цвета для различения значений */
+.value {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Стиль для заголовка */
+.title {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+}
+.banner {
+    padding: 2em 3em;
+    margin-top: 1em;
+    border-radius: 1em;
+    background: #ffebd6;
+    justify-content: space-between;
+    display: flex;
+    font-size: 119%;
+    text-decoration: none;
+    color: #ff6205;
+    transition: .2s;
+    align-items: center;
+    
+}   
+.banner:hover {
+    
+    background: #ece0d2;
+    
+}   
+.banner a{
+   text-decoration: none;
+    
+}
+.banner-text {
+    display: flex;
+    align-items: center;
+}   
+.banner-text::before {
+    content: "😎";
+    margin-right: 10px;
+    font-size: 200%;
+}
